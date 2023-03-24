@@ -50,13 +50,13 @@ body {
 }
 
 .header {
-  padding-top: 24px;
 }
 
 .header-navigation {
   display: flex;
   margin-right: auto;
   padding-bottom: 24px;
+  padding-top: 24px;
 }
 
 .header-logo-web {
@@ -109,6 +109,7 @@ body {
 .header-address {
   font-style: normal;
   padding-bottom: 24px;
+  padding-top: 24px;
 }
 
 .header-address-list {
@@ -248,7 +249,7 @@ body {
 
 .team-list {
   display: flex;
-  margin-top: 72px;
+  padding-top: 72px;
   gap: 24px;
 }
 
@@ -269,8 +270,8 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  margin-top: 32px;
-  margin-bottom: 8px;
+  padding-top: 32px;
+  padding-bottom: 8px;
 }
 
 .team-job {
@@ -279,7 +280,7 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   color: #434455;
-  margin-bottom: 32px;
+  padding-bottom: 32px;
 }
 
 /* _____footer_____ */
@@ -337,7 +338,7 @@ body {
   align-items: flex-start;
   gap: 24px;
   justify-content: center;
-  padding-bottom: 72px;
+  margin-bottom: 72px;
   padding-top: 96px;
 }
 
@@ -383,7 +384,7 @@ img {
   display: flex;
   flex-wrap: wrap;
   gap: 48px 24px;
-  margin-bottom: 120px;
+  padding-bottom: 120px;
 }
 
 .card-border {
@@ -399,7 +400,7 @@ img {
   letter-spacing: 0.02em;
   color: var(--menu-list);
   margin-top: 32px;
-  padding: 0px 16px;
+  padding: 0px 16px 8px;
   display: flex;
   justify-content: flex-start;
 }
@@ -409,8 +410,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--paragraph-filters);
-  margin-bottom: 32px;
-  padding: 0px 16px;
+  padding: 0px 16px 32px;
   display: flex;
   justify-content: flex-start;
 }
